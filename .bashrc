@@ -6,6 +6,7 @@
 . /home/alex/.nix-profile/etc/profile.d/nix.sh
 alias nhc="nix-shell https://holochain.love"
 alias snhc="screen nix-shell http://holochain.love"
+export PATH=${PATH}:$HOME/.local/share/applications
 ###
 
 [[ $- != *i* ]] && return
