@@ -17,4 +17,10 @@ map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
 nnoremap <S-Tab> <C-W><C-W>
+inoremap jj <Esc>
 syntax on
+noremap <Up> <Nop>
+nmap <Space><Space> o<ESC>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
