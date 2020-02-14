@@ -9,6 +9,7 @@ alias snhc="screen nix-shell http://holochain.love"
 export PATH=${PATH}:$HOME/.local/share/applications
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
+alias vim='nvim'
 ###
 
 [[ $- != *i* ]] && return
