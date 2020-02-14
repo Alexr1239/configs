@@ -6,10 +6,12 @@
 . /home/alex/.nix-profile/etc/profile.d/nix.sh
 alias nhc="nix-shell https://holochain.love"
 alias snhc="screen nix-shell http://holochain.love"
-export PATH=${PATH}:$HOME/.local/share/applications
+export PATH=${PATH}:$HOME/.local/share/applications:$HOME/.cargo/bin
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 alias vim='nvim'
+alias ru='rustup update'
+alias syu='rustup update && sudo pacman -Syu'
 ###
 
 [[ $- != *i* ]] && return
