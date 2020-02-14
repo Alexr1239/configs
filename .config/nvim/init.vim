@@ -392,7 +392,7 @@ endif
 
 noremap YY "+y<CR>
 noremap <leader>p "+gP<CR>
-noremap XX "+x<CR>
+" noremap XX "+x<CR>
 
 if has('macunix')
   " pbcopy for OSX copy/paste
@@ -481,12 +481,12 @@ if !exists('g:airline_powerline_fonts')
   let g:airline_left_alt_sep      = '»'
   let g:airline_right_sep         = '◀'
   let g:airline_right_alt_sep     = '«'
-  let g:airline#extensions#branch#prefix     = '⤴' "➔, ➥, ⎇
-  let g:airline#extensions#readonly#symbol   = '⊘'
+  let g:airline#extensions#branch#prefix     = '#' "➔, ➥, ⎇
+  let g:airline#extensions#readonly#symbol   = '!'
   let g:airline#extensions#linecolumn#prefix = '¶'
   let g:airline#extensions#paste#symbol      = 'ρ'
   let g:airline_symbols.linenr    = '␊'
-  let g:airline_symbols.branch    = '⎇'
+  let g:airline_symbols.branch    = '*'
   let g:airline_symbols.paste     = 'ρ'
   let g:airline_symbols.paste     = 'Þ'
   let g:airline_symbols.paste     = '∥'
