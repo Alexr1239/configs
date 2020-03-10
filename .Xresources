@@ -15,16 +15,16 @@ XTerm*reverseVideo:      on
 XTerm*selectToClipboard: true
 !!Urxvt*font: xft:monospace:size=14:antialias=true
 
-*background:                      #222D31
+*background:                      #1D1F21
 *foreground:                      #d8d8d8
 *fading:                          8
 *fadeColor:                       black
-*cursorColor:                     #1ABB9B
+*cursorColor:                     #3971ED
 *pointerColorBackground:          #2B2C2B
 *pointerColorForeground:          #16A085
 
 !! black dark/light
-*color0:                          #222D31
+*color0:                          #1D1F21
 *color8:                          #585858
 
 !! red dark/light
@@ -62,6 +62,7 @@ Xcursor.size:                     0
 URxvt.font:                         xft:Inconsolata:size=18, \
                                                xft:TerminessTTFNerdFontMono:size=14, \
                                                xft:Pomodoro:size=14, \
+                                               xft:NerdFontComplete:size=14, \
                                                xft:FontAwesome:size=14, \
                                                xft:icomoon:size=14, \
                                                xft:Source Code Pro-10:size=14 
@@ -71,13 +72,14 @@ URxvt.font:                         xft:Inconsolata:size=18, \
 !! terminus names see end of file!
 
 URxvt.depth:                      32
-URxvt.background:                 [100]#222D31
+URxvt.background:                 #1D1F21
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       true
 URxvt*cursorBlink:                true
 URxvt*background:                 black
 URxvt*foreground:                 grey
 URxvt*saveLines:                  5000
+URxvt.cursorUnderline: true
 
 ! for 'fake' transparency (without Compton) uncomment the following three lines
 ! URxvt*inheritPixmap:            true
