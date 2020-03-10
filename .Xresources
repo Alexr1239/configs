@@ -75,11 +75,11 @@ URxvt.depth:                      32
 URxvt.background:                 #1D1F21
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       true
-URxvt*cursorBlink:                true
+URxvt*cursorBlink:                false
 URxvt*background:                 black
-URxvt*foreground:                 grey
+URxvt*foreground:                 white
 URxvt*saveLines:                  5000
-URxvt.cursorUnderline: true
+URxvt.cursorUnderline: false
 
 ! for 'fake' transparency (without Compton) uncomment the following three lines
 ! URxvt*inheritPixmap:            true
