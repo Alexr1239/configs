@@ -1,0 +1,40 @@
+xrdb merge .Xresources
+sets .Xresources file
+
+pacman -Qqe > pkglist.txt
+creates list of installed packages
+
+xdpyinfo  | grep 'dimensions:'
+dimmensions
+
+sudo rfkill block bluetooth
+kills bluetooth
+
+rfkill list 
+lists network devices
+
+timeshift
+creates backup
+
+git remote add origin <site>
+git push -u origin master
+
+fc-list
+xrdb -merge ~/.Xresources
+
+PlugInstall
+UpdateRemotePlugins
+
+git rm --cached . -f
+remove git lol
+
+du -a /home | sort -n -r | head -n 10
+find largest folders
+
+sudo paccache -r
+remove cache
+
+location of firefox settings
+/home/alex/.mozilla/firefox/z1wokpj9.default-release/chrome
+
+pa-applet controls audio
