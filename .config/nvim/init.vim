@@ -65,7 +65,7 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
 "" Color
-Plug 'tomasr/molokai'
+"Plug 'tomasr/molokai'
 
 "*****************************************************************************
 "" Custom bundles
