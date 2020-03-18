@@ -351,8 +351,8 @@ bar {
         separator  #FFFFFF
 
 #                           border  backgr. text
-        focused_workspace  #00000000 #44444477 #FDF6E3
-        active_workspace   #00000000  #44444477 #FDF6E3
+        focused_workspace  #00000000 #333333 #FDF6E3
+        active_workspace   #00000000  #333333 #FDF6E3
         inactive_workspace #00000000  #00000000 #EEE8D5
         binding_mode       #00000000  #00000000 #F9FAF9
         urgent_workspace   #00000000  #FDF6E300 #E5201
