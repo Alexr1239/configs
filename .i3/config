@@ -47,7 +47,7 @@ bindsym $mod+z exec --no-startup-id morc_menu
 #bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 exec --no-startup-id start-pulseaudio-x11
 exec --no-startup-id pa-applet
-exec --no-startup-id unclutter
+exec_always --no-startup-id unclutter
 bindsym $mod+Ctrl+m exec pavucontrol
 
 ################################################################################################
